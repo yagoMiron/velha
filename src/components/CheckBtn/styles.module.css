@@ -1,0 +1,25 @@
+.btn {
+  width: 100px;
+  height: 100px;
+  color: red;
+  background-color: lightgray;
+  font-size: 32px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70px;
+}
+.backgroundX {
+  background-image: url("../../assets/svg/xis.svg");
+}
+.backgroundO {
+  background-image: url("../../assets/svg/circle.svg");
+}
+.hoverX:hover {
+  background-image: url("../../assets/svg/xis.svg");
+  background-size: 90px;
+}
+.hoverO:hover {
+  background-image: url("../../assets/svg/circle.svg");
+  background-size: 80px;
+}
