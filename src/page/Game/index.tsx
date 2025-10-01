@@ -10,7 +10,6 @@ function Game() {
     ["", "", ""],
     ["", "", ""],
   ]);
-  const [placar, setPlacar] = useState([0, 0]);
   const [status, setStatus] = useState("Aguardando conexão...");
 
   useEffect(() => {

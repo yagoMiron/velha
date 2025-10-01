@@ -1,4 +1,4 @@
-# React + TypeScript + Vite
+# Jogo da Velha com Web Soscket
 
 Para rodar:
 
