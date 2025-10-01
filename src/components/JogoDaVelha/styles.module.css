@@ -1,4 +1,7 @@
 .resetBtn {
-  background-color: lightskyblue;
+  background-color: rgb(76, 85, 170);
   margin-top: 15px;
+}
+.resetBtn:hover {
+  background-color: rgb(154, 164, 252);
 }

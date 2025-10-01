@@ -1,12 +1,9 @@
-import JogoDaVelha from "./components/JogoDaVelha";
-import "./App.css";
+import { useRoutes } from "react-router-dom";
+import { routes } from "./routes/Routes";
 
 function App() {
-  return (
-    <main>
-      <JogoDaVelha />
-    </main>
-  );
+  const elements = useRoutes(routes);
+  return elements;
 }
 
 export default App;

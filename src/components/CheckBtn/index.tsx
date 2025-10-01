@@ -4,9 +4,10 @@ type Props = {
   value: string;
   setValue: () => void;
   EhX: boolean;
+  suaVez: boolean;
 };
 
-const CheckBtn = ({ value, setValue, EhX }: Props) => {
+const CheckBtn = ({ value, setValue, EhX, suaVez }: Props) => {
   return (
     <td>
       <button
@@ -16,10 +17,11 @@ const CheckBtn = ({ value, setValue, EhX }: Props) => {
           value === "O" ? styles.backgroundO : ""
         }`}
         onClick={() => {
-          if (value === "") {
+          if (value === "" && suaVez) {
             setValue();
           }
         }}
+        disabled={!suaVez}
       ></button>
     </td>
   );
